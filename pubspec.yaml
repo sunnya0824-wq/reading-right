@@ -1,0 +1,46 @@
+name: Reading Right
+description: Gamified Physical Reading Platform
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  firebase_firestore: ^4.14.0
+  firebase_storage: ^11.5.0
+  google_ml_kit: ^0.13.0
+  mobile_scanner: ^3.5.0
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.0
+  intl: ^0.19.0
+  fl_chart: ^0.65.0
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.0
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_linter: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  fonts:
+    - family: GoogleSans
+      fonts:
+        - asset: assets/fonts/GoogleSans-Regular.ttf
+        - asset: assets/fonts/GoogleSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/GoogleSans-Medium.ttf
+          weight: 500
